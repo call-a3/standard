@@ -1,0 +1,50 @@
+{
+  "name": "@call-a3/standard",
+  "version": "0.0.0-development",
+  "description": "Standard-based linter/formatter with the personal preferences of Adriaan Callaerts",
+  "main": "index.js",
+  "bin": {
+    "standard": "cli.js"
+  },
+  "scripts": {
+    "test": "echo 'No tests specified yet'",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/call-a3/standard.git"
+  },
+  "keywords": [
+    "standard",
+    "eslint",
+    "prettier",
+    "formatter",
+    "linter"
+  ],
+  "author": {
+    "name": "Adriaan Callaerts",
+    "email": "adriaan.callaerts@gmail.com",
+    "url": "https://www.adriaan.me"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/call-a3/standard/issues"
+  },
+  "homepage": "https://github.com/call-a3/standard#readme",
+  "dependencies": {
+    "@call-a3/eslint-config": "^1.0.0",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier": "^1.18.2",
+    "standard-engine": "^11.0.1"
+  },
+  "standard-engine": "@call-a3/engine",
+  "devDependencies": {
+    "semantic-release": "^15.13.19"
+  }
+}
