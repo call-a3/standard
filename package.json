@@ -1,6 +1,6 @@
 {
   "name": "@call-a3/standard",
-  "version": "0.0.0-development",
+  "version": "1.0.1",
   "description": "Standard-based linter/formatter with the personal preferences of Adriaan Callaerts",
   "main": "index.js",
   "bin": {
