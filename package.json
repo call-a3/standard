@@ -32,22 +32,22 @@
   },
   "homepage": "https://github.com/call-a3/standard#readme",
   "dependencies": {
-    "@call-a3/eslint-config": "^1.0.0",
-    "eslint": "^6.1.0",
-    "eslint-config-prettier": "^6.0.0",
+    "@call-a3/eslint-config": "^1.1.0",
+    "eslint": "^6.2.1",
+    "eslint-config-prettier": "^6.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.1",
     "prettier": "^1.18.2",
-    "standard-engine": "^11.0.1"
+    "standard-engine": "^12.0.0"
   },
   "standard-engine": "@call-a3/engine",
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.4",
     "@semantic-release/git": "^7.0.16",
-    "semantic-release": "^15.13.19"
+    "semantic-release": "^15.13.24"
   },
   "release": {
     "tagFormat": "${version}",
