@@ -2,17 +2,19 @@
   "name": "@call-a3/standard",
   "version": "1.0.3",
   "description": "Standard-based linter/formatter with the personal preferences of Adriaan Callaerts",
-  "main": "index.js",
-  "bin": {
-    "standard": "cli.js"
-  },
-  "scripts": {
-    "test": "echo 'No tests specified yet'",
-    "semantic-release": "semantic-release"
-  },
+  "homepage": "https://github.com/call-a3/standard#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/call-a3/standard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/call-a3/standard/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Adriaan Callaerts",
+    "email": "adriaan.callaerts@gmail.com",
+    "url": "https://www.adriaan.me"
   },
   "keywords": [
     "standard",
@@ -21,33 +23,31 @@
     "formatter",
     "linter"
   ],
-  "author": {
-    "name": "Adriaan Callaerts",
-    "email": "adriaan.callaerts@gmail.com",
-    "url": "https://www.adriaan.me"
+  "main": "index.js",
+  "bin": {
+    "standard": "cli.js"
   },
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/call-a3/standard/issues"
+  "scripts": {
+    "test": "echo 'No tests specified yet'",
+    "semantic-release": "semantic-release"
   },
-  "homepage": "https://github.com/call-a3/standard#readme",
   "dependencies": {
-    "@call-a3/eslint-config": "^1.1.0",
-    "eslint": "^6.2.1",
-    "eslint-config-prettier": "^6.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "prettier": "^1.18.2",
-    "standard-engine": "^12.0.0"
+    "@call-a3/eslint-config": "^1.1.1",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^4.1.0",
+    "prettier": "^2.6.2",
+    "standard-engine": "^15.0.0"
   },
-  "standard-engine": "@call-a3/engine",
+  "standard-engine": ".",
   "devDependencies": {
-    "@semantic-release/changelog": "^5.0.0",
-    "@semantic-release/git": "^9.0.0",
-    "semantic-release": "^17.0.0"
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^19.0.2"
   },
   "release": {
     "tagFormat": "${version}",
